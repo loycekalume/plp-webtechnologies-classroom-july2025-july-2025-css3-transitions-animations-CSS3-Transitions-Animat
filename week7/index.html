@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic CSS & JS Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Part 1: CSS Transitions & Animations -->
+  <header>
+    <h1>Interactive CSS & JavaScript Demo</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Part 1: CSS Animations</h2>
+      <button class="hover-btn">Hover Me</button>
+      <div class="animated-box"></div>
+    </section>
+
+    <section>
+      <h2>Part 2: JavaScript Functions</h2>
+      <label for="width">Width:</label>
+      <input type="number" id="width" placeholder="Enter width">
+      
+      <label for="length">length:</label>
+      <input type="number" id="length" placeholder="Enter length">
+      
+      <button id="calcBtn">Calculate Area</button>
+      <p id="areaResult"></p>
+    </section>
+
+    <section>
+      <h2>Part 3: Combining CSS & JS</h2>
+      <button id="toggleBoxBtn">Toggle Box Animation</button>
+      <div class="js-box" id="jsBox"></div>
+
+      <button id="openModalBtn">Open Modal</button>
+      <!-- removed 'hidden' class -->
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <span id="closeModalBtn" class="close">&times;</span>
+          <p>This is a popup modal with fade animation!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Dynamic CSS & JS Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
